@@ -1,0 +1,57 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>fonction synchron</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0px;
+            padding: 0px;
+        }
+        .content {
+            padding-bottom: 50px;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 30px;
+            font-size: 36px;
+            color: #333;
+        }
+        .corps {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <label for="quota" style="font-weight: bold; font-size: 18px;">Quantité de nombres premiers :</label>
+    <input type="text" id="quota" name="quota" value="1000000" style="margin-left: 10px; padding: 5px; border-radius: 5px; border: 1px solid #ccc;" />
+    
+    <button id="generer">Générer des nombres premiers</button>
+    <button id="recharger">Recharger</button>
+    
+    <div id="output"></div>
+    
+    <script src="./fonctionsynchron.js"></script>
+
+    <footer><p>@Boubacar - tous droits réservés - &copy; Promo 2026</p></footer>
+
+</body>
+</html>
