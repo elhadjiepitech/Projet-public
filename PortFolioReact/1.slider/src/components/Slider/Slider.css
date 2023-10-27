@@ -1,0 +1,35 @@
+.index-info {
+    text-align: center;
+    color: white;
+    margin: 115px 0 0 25px; /*Haut gauchhe droite bas*/
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.slider {
+    max-width: 600px;
+    aspect-ratio: 3/2;
+    margin: 0 auto;
+    position: relative;
+}
+
+image-info{
+    position: absolute;
+    z-index: 1;
+    color: #111;
+    background: white;
+    border-bottom: 1px solid #111;
+}
+.slider-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ /*    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.5s ease-in-out; */
+}
+.navigation-button {
+    display: none;
+}
+
